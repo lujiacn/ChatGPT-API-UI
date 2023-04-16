@@ -209,7 +209,7 @@
     }
     let done = false;
     currentHistory = [...currentHistory];
-    let source = new SSE("https://www.jl-t.com/v1/chat/completions", {
+    let source = new SSE("https://chat.jl-t.com/v1/chat/completions", {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${$apiKey}`,
